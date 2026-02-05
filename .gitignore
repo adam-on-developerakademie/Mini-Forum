@@ -157,6 +157,11 @@ ENV/
 env.bak/
 venv.bak/
 
+# Environment Variables (WICHTIG!)
+.env
+.env.local
+.env.production
+
 # Spyder project settings
 .spyderproject
 .spyproject

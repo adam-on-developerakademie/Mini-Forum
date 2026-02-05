@@ -38,6 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',           # DRF hinzufügen
+    'rest_framework.authtoken', # Token Authentication
+    'user_auth_app',           # Unsere Auth App
+    'forum_app',               # Unsere Forum App
+    
+    
 ]
 
 MIDDLEWARE = [
